@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git branch: 'main', credentialsId: 'your-jenkins-credential-id', url: 'https://github.com/kuronek01/website1.git'
+                git branch: 'main', credentialsId: 'your-jenkins-credential-id', url: 'https://github.com/ThoriqFaz/devops-microservices.git'
             }
         }
 
